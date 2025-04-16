@@ -10,3 +10,8 @@
 * */
 
 const taktfahrplan_done_year = 2070;
+const birth_of_me_year = 2003;
+const age_max = taktfahrplan_done_year - birth_of_me_year;
+const age_min = age_max - 1;
+
+console.log(`Bei Einführung des Taktfahrplans der DB wirst ${age_min} oder ${age_max} Jahre alt sein.`)
